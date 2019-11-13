@@ -1,0 +1,50 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*body*/
+body{position:relative;}
+/*content start*/
+.here{height:54px; line-height:54px; font-size:14px; color:#7B7B7B;}
+.here a:link,.here a:visited{color:#7b7b7b;}
+.here a:hover{color:#000;}
+.content{height:auto; background:#fff;}
+.content h2{font-size:28px; padding:20px 0 0 12px; color:#1c1b1b; font-family:"微软雅黑";}
+.content .classify{height:36px; line-height:36px; padding-left:12px; font-size:14px; color:#cacaca;}
+.content figure{width:980px; height:auto; margin:15px auto 0; }
+.content figure h3{text-align:center; height:100px; line-height:40px; font-size:18px; font-family:"微软雅黑";}
+.content .share_wrap{width:980px; height:40px; lineg-height:40px; margin:30px auto 0; padding-bottom:20px;}
+.share_wrap p{color:#cacaca; font-size:16px;}
+.share_wrap .share li{width:40px; height:40px; float:left; margin-left:20px;}
+.share_wrap .share li a{display:block; width:100%; height:100%; background:url(img/share_icon.png);}
+.share_wrap .share li a:hover{background:url(img/share_icon.png) 0 -50px;}
+.share_wrap .share li .txwb{background-position:-50px 0;}
+.share_wrap .share li .txwb:hover{background-position:-50px -50px;}
+.share_wrap .share li .qqkj{background-position:-100px 0;}
+.share_wrap .share li .qqkj:hover{background-position:-100px -50px;}
+/*comment start*/
+.comment{width:1068px; height:auto; background:#fff; margin-top:20px; padding:20px 0 20px 12px;} 
+.comment h3{font-size:24px; color:#1c1b1b;}
+.comment textarea{width:968px; height:108px; display:block; border:1px solid #cacaca; padding:10px 5px 0; margin:0 auto 15px;}
+.comment button{width:60px; height:30px; line-height:30px; text-align:center; font-size:14px; border-radius:2px; font-family:"微软雅黑"; cursor:pointer;}
+.comment .publish{background:#0f91f5; color:#fff; margin:0 15px 0 44px;}
+.comment .cancel{background:#f4f4f4; color:#cacaca;}
+.comment .cancel:hover{background:#0f91f5; color:#fff;}
+.name_wrap{width:980px; height:36px; line-height:36px; margin-top:15px; color:#1c1b1b;}
+.name_wrap span,.name_wrap input{ float:left;}
+.name_wrap input{margin:8px 5px 0 10px;}
+.name_wrap .avatar{margin-top:12px;}
+.name_wrap .avatar_man{width:15px; height:21px; background:url(img/portrait_icon.png) -19px 0; margin:4px 5px 0 0;}
+.name_wrap .avatar_woman{width:18px; height:20px; background:url(img/portrait_icon.png) -18px -21px; margin:4px 5px 0 0;}
+.floor{height:auto; margin-top:30px;}
+.floor li{width:100%; height:auto; overflow:hidden;}
+.floor li div{float:left; text-align:center; padding:10px; width:124px;}
+.floor li div img{border-radius:50%; width:80px; height:80px;}
+.floor li div h4{height:30px; line-height:30px; font-weight:bold;}
+.floor li p{float:left; width:870px; height:140px; padding:10px 5px 0; border:1px solid #cacaca; margin-top:20px;}
+/*comment end*/
+/*content end*/
+/*top start*/
+.toTop {display: block; width:42px; height:42px; background:url(img/top.png); position:fixed; right:40px; bottom:150px; }
+.toTop:hover { background:url(img/top_xt.png); }
+.topCon {display: none; }
+
+/*top end*/
